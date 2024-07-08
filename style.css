@@ -31,13 +31,14 @@ h1{
 .choices{
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem;
     padding-top:8rem ;
     padding-bottom: 5rem;
 }
 img{
     height: 150px;
     width: 150px;
+    object-fit: cover;
     border-radius: 50%;
 }
 .choice:hover{

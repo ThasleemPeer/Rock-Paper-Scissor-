@@ -12,6 +12,10 @@ body {
 h1{
     display: flex;
     justify-content: center;
+    background-color: #081b31;
+    color: #fff;
+    height: 5rem;
+    line-height: 5rem;
 }
 .choice{
     height: 165px;
@@ -37,6 +41,7 @@ img{
     border-radius: 50%;
 }
 .choice:hover{
+    opacity: 0.9;
     cursor: pointer;
     background-color: #081b31;
 }
